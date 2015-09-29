@@ -68,9 +68,9 @@ public class emops {
                  double tttot=ttime1+ttime2+ttime3+ttime4+ttime5;
                     double ttot=(time1*15)+(time2*15)+(time3*15)+(time4*15)+(time5*15);
                     double tot = tttot+ ttot;
-                    c.println("Over time hours: "+tttot);
-                    c.println("Hours: " +ttot);
-                    c.print("Total hours: "+tot);
+                    c.println("Over time pay: $"+tttot);
+                    c.println("pay: $" +ttot);
+                    c.print("Total pay: $"+tot);
       
     }
 }
