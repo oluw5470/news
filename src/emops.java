@@ -33,6 +33,8 @@ public class emops {
                 
                 if (time1<1 || time1 >70 || time2<1 || time2 >70 || time3<1 || time3 >70 || time4<1 || time4 >70 || time5<1 || time5 >70 )
                 {
+                    c.print("you have entered a number either under 1 or over 70. Program is now shuting down");
+                            c.getChar();
                     c.close();
                 }
                
@@ -52,7 +54,7 @@ public class emops {
                 if(time3>40)
                 {
                     ttime3 = ((double)time3-40)*22.5;
-                }
+                } 
                 if(time4> 40)
                 {
                     ttime4 = ((double)time4-40)*22.5;
